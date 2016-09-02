@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>star.xing</groupId>
+		<artifactId>core-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>core-parent/</relativePath>
+	</parent>
+
+	<artifactId>core-libs</artifactId>
+	<name>core-libs</name>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>core-parent</module>
+		<module>core-model</module>
+		<module>core-logging</module>
+		<module>core-util</module>
+		<module>core-persistence</module>
+	</modules>
+
+	<scm>
+		<!-- <developerConnection>scm:git:ssh://git@192.168.8.114/diffusion/JCORE/jingan-core-libs.git</developerConnection>
+		<tag>HEAD</tag> -->
+	</scm>
+</project>
